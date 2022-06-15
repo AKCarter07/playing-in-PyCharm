@@ -19,8 +19,13 @@ def add(x, y):
     return x + y
 
 
+print(greet())
 greet()
 annoyed()
 name("Carter")
 print(change_x(1))
 print(add(1,2))
+c = add(4,2)
+print(c)
+print(add(4,5))  # contains 3  expressions: 4, 5, & add(4,5) == 9 (4th expression: print evals to None)
+print(print(c))
